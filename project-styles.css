@@ -33,8 +33,7 @@ body {
 	background-color: #F7EDED; /* colour codes at: http://www.w3schools.com/tags/ref_colorpicker.asp */
 	color: #333333;  /* font color */
 	font-family: "Raleway", Roboto; /* http://cssfontstack.com/ */
-  margin-left: 50px;
-  margin-right: 50px;
+ 	text-align: center;
 }
 
 h1 {
