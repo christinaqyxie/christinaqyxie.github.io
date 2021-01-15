@@ -4,8 +4,8 @@ body {
 	font-size: 15px;
 }
 .background1 {
-	background: rgb(129,122,209);
-	background: radial-gradient(circle, rgba(129,122,209,1) 17%, rgba(129,122,209,1) 27%, rgba(146,139,221,1) 52%, rgba(151,144,225,1) 59%, rgba(184,178,250,1) 85%);
+	background: rgb(141,134,224);
+	background: radial-gradient(circle, rgba(141,134,224,1) 8%, rgba(184,178,250,1) 77%);
 }
 h1 {
 	color: #fff;
