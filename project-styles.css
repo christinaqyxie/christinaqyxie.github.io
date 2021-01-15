@@ -1,0 +1,151 @@
+.topnav {
+    background-color: #5D576B;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* figure out how to change the colour of links inside */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		font-family: 'Raleway';
+    font-size: 17px;
+		te
+}
+
+.topnav a:hover {
+    background-color: #D2D1D6;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #898493;
+    color: white;
+}
+
+body {
+	padding: 20px 20px 20px 20px;
+	background-color: #F7EDED; /* colour codes at: http://www.w3schools.com/tags/ref_colorpicker.asp */
+	color: #333333;  /* font color */
+	font-family: "Raleway", Roboto; /* http://cssfontstack.com/ */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+	color: #A25E5A;
+	text-align:center;
+	font-family:"Satisfy";
+	font-size: 65px;
+	font-weight:400;
+	margin-left: 0.35em;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: #87606B;
+	text-align:center;
+	font-family:"Abel";
+	font-size: 40px;
+	font-weight:100;
+	margin-top: -15px;
+  margin-bottom: 0;
+}
+
+h3 {
+		text-align:center;
+		font-family:"Roboto Condensed";
+		font-size: 20px;
+		font-weight:100;
+		margin-top: 0;
+}
+
+.maintext {
+	background: #FCFCFC;
+	padding: 15px 40px 15px 40px;
+	border-radius: 0.5em; /* 50% border radius */
+	font-size: 1.2em;  /* 120% of default font size */
+	font-family: "Raleway"; Roboto Condensed;	/* http://cssfontstack.com/ */
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+	color: #B88C9E;
+	font-size: 25px;
+	font-family: "Raleway"; Roboto Condensed;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.icon {
+  color: #B88C9E;
+  font-size: 35px;
+  font-weight: 350;
+  text-align: center;
+}
+
+.rounded-corner {
+	border-radius: 0.5em; /* 50% border radius */
+	box-shadow: 0px 0px 10px #333333; /* http://www.css3.info/preview/box-shadow/ */
+	-moz-box-shadow: 0px 0px 10px #333333;
+	-webkit-box-shadow: 0px 0px 10px #333333;
+}
+
+/* default link styles */
+a:link, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DD8DA7;
+	text-decoration: none;
+}
+
+/* cool link styles */
+a.cool:link, a.cool:visited, a.cool:active {
+	color: #ffffff;
+	padding: 5px 5px 5px 5px; /* top, right, bottom, left */
+	text-decoration: none;
+	background-color: #333333;
+}
+
+a.cool:hover {
+	color: #000066;
+	background: yellow;
+	box-shadow: 2px 2px 10px #333333; /* http://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+	-moz-box-shadow: 2px 2px 10px #333333;
+	-webkit-box-shadow: 2px 2px 10px #333333;
+}
+
+
+.img-thumbnail {
+  width: 285px;
+  height: 400px;
+  margin: 20px;
+}
+
+.img-layout{
+  width: 315px;
+  height: 210px;
+  margin: 10px;
+
+}
+
+.img-gallery {
+  text-align: center;
+}
+
+.img-side{
+  width: 133px;
+  height: 200px;
+  margin: 5px;
+  margin-top: -40px;
+}
