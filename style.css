@@ -164,10 +164,11 @@ hr {
 	padding-top: 3vh;
 	width: 40%;
 	float:left;
+	text-align: center;
 }
 
 .image2 {
-	height: 81vh;
+	height: 80vh;
 	margin-left: -15vh;
 	margin-top: 5vh;
 }
@@ -182,7 +183,7 @@ hr {
 	width: 46%;
 	float: right;
 	line-height: 5.5vh;
-	padding: 17vh 15vh 0 5vh;
+	padding: 17vh 15vh 0 4vh;
 }
 
 .profile {
