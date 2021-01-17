@@ -146,21 +146,47 @@ hr {
 	display:inline-block;
 }
 
-.image1 {
-	height: 46vh;
-	padding-left: 27vh;
-	margin-right: 2vh;
-}
-
-.imagebox {
+.imagebox1 {
 	width: 40%;
 	float:right;
 }
 
-.text1 {
-	width: 50%;
-	float: left:
 
+.image1 {
+	height: 46vh;
+	margin-top: -5vh;
+	margin-left: -30vh;
+	padding-left: 13vh;
+}
+
+.imagebox2 {
+	padding-top: 5vh;
+	width: 40%;
+	float:left;
+}
+
+.image2 {
+	height: 80vh;
+	margin-left: -10vh;
+	margin-top: -12vh;
+}
+
+.text1 {
+	width: 46%;
+	float: left;
+	line-height: 5vh;
+}
+
+.text2 {
+	width: 43%;
+	float: right;
+	line-height: 5vh;
+	padding-top: 10vh;
+	padding-right: 10vh;
+}
+
+.profile {
+	display:inline-block;
 }
 
 html body [data-ca3_iconfont="ETmodules"]::before {
