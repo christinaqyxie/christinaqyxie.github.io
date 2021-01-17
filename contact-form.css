@@ -1,0 +1,84 @@
+
+.btnBack {
+    background-color: #117689;
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    transition: 0.5s;
+    align:'left';
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.btnBack:hover {
+    background-color:#5AA8B4;
+}
+.goBack {
+  text-decoration: none;
+  color: #ffffff;
+}
+html, body {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-image: url(trianglify.svg);
+}
+svg { position:fixed; top:0; bottom:0; left:0; right:0 }
+body {
+  font-family: 'Poppins';
+}
+form {
+  margin-left: 4%;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-size: 30px;
+}
+.background {
+  background: #FCFCFC;
+  width: 400px;
+  padding: 5px 15px 15px 15px;
+  border-radius: 0.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=text] {
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-right: 0px;
+  border-style: 1px solid #eee;
+  margin-left: 10px;
+}
+.subBtn {
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+  background-color: #117689;
+  height: 25px;
+  width: 253px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.subBtn:hover {
+  background-color:#5AA8B4;
+}
+textarea {
+  width: 250px;
+  margin-left: 10px;
+}
+.output {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
