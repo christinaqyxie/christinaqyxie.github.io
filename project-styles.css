@@ -33,11 +33,10 @@ h3 {
 }
 
 .iconPic {
-	height: 55vh;
+	height: 38vh;
 	display: inline-block;
   float: left;
-  padding-top: 1vh;
-  padding-left: 36vh;
+  padding: 10vh 4vh 0vh 36vh;
 
 }
 
