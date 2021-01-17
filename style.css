@@ -152,9 +152,9 @@ hr {
 }
 
 .image1 {
-	height: 46vh;
-	margin-top: -5vh;
-	margin-left: -30vh;
+	height: 48vh;
+	margin-top: -8vh;
+	margin-left: -25vh;
 	padding-left: 13vh;
 }
 
@@ -165,7 +165,7 @@ hr {
 }
 
 .image2 {
-	height: 80vh;
+	height: 75vh;
 	margin-left: -8vh;
 	margin-top: -12vh;
 }
@@ -177,7 +177,7 @@ hr {
 }
 
 .text2 {
-	width: 43%;
+	width: 46%;
 	float: right;
 	line-height: 5.5vh;
 	padding: 10vh 15vh 0 5vh;
