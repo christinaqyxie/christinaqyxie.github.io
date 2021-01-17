@@ -196,7 +196,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .prev,
 .next {
-  letter-spacing: 5vh;
+  letter-spacing: 6vh;
   text-align: center;
   padding-left: 3vh;
 }
@@ -208,5 +208,16 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .numbertext {
-  padding-bottom: 3vh;
+  padding-bottom: 4vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 60%;
+  margin-top: -3vh;
+}
+
+.subsection {
+  font-size: 45%;
+  font-style: normal;
+  color: #3f276b;
+  margin-top: 5vh;
 }
