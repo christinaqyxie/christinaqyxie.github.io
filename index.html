@@ -47,7 +47,7 @@
 						<img src="laptop.png" class="image2" alt="Illustration" title="Illustration"></p>
 					</div>
 					<div class="text2">
-						<p>I'm currently based in Kitchener, Ontario. Growing up I've always had a keen interest in drawing and design. Upon entering high school, I discovered my love for math, physics, and biology. Picking up programming during this time allowed me to realize my passion for the interdiscplinary field of STEM. I hope to devote my knowledge, experience, and zeal to real-world challenges!</p>
+						<p>I'm currently based in Kitchener, Ontario.<br>Growing up I've always had a keen interest in drawing and design. Upon entering high school, I discovered my love for math, physics, and biology. Picking up programming during this time allowed me to realize my passion for the interdiscplinary field of STEM. I hope to devote my knowledge, experience, and zeal to real-world challenges!</p>
 					</div>
 				</div>
 		</section>
@@ -56,15 +56,18 @@
 	<!-- /main content →
 
 	<!-- load jquery -->
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>
-	function() {
-	  $('a[href*=#]').on('click', function(e) {
-	    e.preventDefault();
-	    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 800, 'linear');
-	  });
+		$(function () {
+		$("a[href*=#]").on("click", function (e) {
+			e.preventDefault();
+			$("html, body").animate(
+				{ scrollTop: $($(this).attr("href")).offset().top },
+				500,
+				"linear"
+			);
+		});
 	});
-</script>
+	</script>
 </body>
 </html>

@@ -151,7 +151,6 @@ hr {
 	float:right;
 }
 
-
 .image1 {
 	height: 46vh;
 	margin-top: -5vh;
@@ -167,7 +166,7 @@ hr {
 
 .image2 {
 	height: 80vh;
-	margin-left: -10vh;
+	margin-left: -8vh;
 	margin-top: -12vh;
 }
 
@@ -181,8 +180,7 @@ hr {
 	width: 43%;
 	float: right;
 	line-height: 5.5vh;
-	padding-top: 10vh;
-	padding-right: 10vh;
+	padding: 10vh 15vh 0 5vh;
 }
 
 .profile {
