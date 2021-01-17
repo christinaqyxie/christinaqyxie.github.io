@@ -148,11 +148,12 @@ hr {
 
 .image1 {
 	height: 46vh;
-	padding-left: 11vh;
+	padding-left: 27vh;
+	margin-right: 2vh;
 }
 
 .imagebox {
-	width: 50%;
+	width: 40%;
 	float:right;
 }
 
