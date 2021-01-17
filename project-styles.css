@@ -221,3 +221,17 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   color: #3f276b;
   margin-top: 5vh;
 }
+
+.projectlinks {
+  font-style: normal;
+  text-decoration: none;
+  color: #3f276b;
+  margin-top:5vh;
+  font: 'Lato';
+}
+
+.projectlinks:hover {
+  color: #fff;
+  transition: 2s;
+  text-transform: uppercase;
+}
