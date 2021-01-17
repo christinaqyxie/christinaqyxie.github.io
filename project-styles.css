@@ -137,9 +137,6 @@ hr {
   font-style: italic;
 }
 
-.list:hover {
-  font-style: normal;
-}
 
 html body [data-ca3_iconfont="ETmodules"]::before {
     font-family: "ETmodules";
@@ -195,4 +192,21 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   0%   { transform:translate(0,-20px); opacity: 0;  }
   50%  { opacity: 1;  }
   100% { transform:translate(0,20px); opacity: 0; }
+}
+
+.prev,
+.next {
+  letter-spacing: 5vh;
+  text-align: center;
+  padding-left: 3vh;
+}
+
+.prev:hover,
+.next:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.numbertext {
+  padding-bottom: 3vh;
 }
