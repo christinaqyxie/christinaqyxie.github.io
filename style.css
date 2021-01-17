@@ -155,9 +155,10 @@ hr {
 }
 
 .image1 {
-	height: 55vh;
-	margin-left: -30vh;
+	height: 57vh;
+	margin-left: -32vh;
 	padding-left: 13vh;
+	margin-top: -6vh;
 }
 
 .imagebox2 {
@@ -204,7 +205,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 1vh;
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 }
 
 .ca3-scroll-down-link {
