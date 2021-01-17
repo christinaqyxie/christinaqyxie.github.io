@@ -9,6 +9,9 @@
 
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato|Poppins|Raleway|Roboto|Roboto+Slab" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<!-- main content -->
@@ -23,15 +26,38 @@
 		  </ul>
 		</div>
 		<div class="titles">
-			<img src="Profile.PNG" class="iconPic" alt="Profile Icon" title="Icon">
+			<img src="icon.png" class="iconPic" alt="Profile Icon" title="Icon">
 			<h1>Christina Xie</h1>
 			<h3>1B Biomedical Engineering Student</h3>
-			<br></br>
+			<a href="#section01" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+			<br>
 		</div>
+		<div class="background2">
+			<section id="section01">
+				<div class="intro">
+					<h2> Welcome to my Portfolio.</h2>
+					<div class="imagebox">
+						<img src="person.png" class="image1" alt="Illustration" title="Illustration"></p>
+					</div>
+					<div class="text1">
+						<p>Hello! I'm Christina, a first year student at the University of Waterloo.</p>
+					</div>
+				</div>
+		</section>
+		</div>
+
 	<!-- /main content →
 
 	<!-- load jquery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+		  $('a[href*=#]').on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 800, 'linear');
+		  });
+		});
+	</script>
 	</div>
 </body>
 </html>
