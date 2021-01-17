@@ -155,10 +155,10 @@ hr {
 }
 
 .image1 {
-	width: 150%;
-	margin-left: -32vh;
+	width: 140%;
+	margin-left: -45%;
 	padding-left: 13vh;
-	margin-top: -5%;
+	margin-top: -8.5%;
 }
 
 .imagebox2 {
@@ -170,8 +170,8 @@ hr {
 
 .image2 {
 	width: 155%;
-	margin-left: -15vh;
-	margin-top: 5vh;
+	margin-left: -22.5%;
+	margin-top: -5%;
 }
 
 .text1 {
@@ -184,7 +184,7 @@ hr {
 	width: 46%;
 	float: right;
 	line-height: 5.5vh;
-	padding: 17vh 15vh 0 4vh;
+	padding: 7.5% 7.5% 0 2%;
 }
 
 .profile {
