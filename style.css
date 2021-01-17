@@ -174,13 +174,13 @@ hr {
 .text1 {
 	width: 46%;
 	float: left;
-	line-height: 5vh;
+	line-height: 5.5vh;
 }
 
 .text2 {
 	width: 43%;
 	float: right;
-	line-height: 5vh;
+	line-height: 5.5vh;
 	padding-top: 10vh;
 	padding-right: 10vh;
 }
@@ -188,6 +188,7 @@ hr {
 .profile {
 	display:inline-block;
 }
+
 
 html body [data-ca3_iconfont="ETmodules"]::before {
     font-family: "ETmodules";
