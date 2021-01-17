@@ -3,12 +3,10 @@ body {
 	font: 200 100% 'Lato', sans-serif;
 	font-size: 3.1vh;
 	letter-spacing: 0.1vh;
-}
-
-.background1 {
 	background: rgb(141,134,224);
 	background: radial-gradient(circle, rgba(141,134,224,1) 8%, rgba(184,178,250,1) 77%);
 }
+
 
 h1 {
 	color: #fff;
@@ -44,7 +42,7 @@ h3 {
 	text-align: center;
 }
 
-.background2 {
+.background1 {
 	margin-top: 23vh;
 	background-color: #fff;
 }
@@ -80,6 +78,7 @@ a.indexLinks:hover {
 .container {
   width: 50%;
   margin: 0 auto;
+	margin-top: -3vh;
 }
 
 ul li {
@@ -94,7 +93,7 @@ ul li {
 a.linkText {
   display: inline-block;
   width: 25%;
-  padding: .80rem 0;
+  padding: 2vh 0;
   margin: 0;
   text-decoration: none;
   color: #fff;
@@ -113,7 +112,7 @@ a.linkText {
 }
 
 hr {
-  height: .25rem;
+  height: 0.4vh;
   width: 25%;
   margin: 0;
   background: white;
@@ -129,7 +128,7 @@ hr {
 	height: 52vh;
 	display: block;
 	margin-top: 1vh;
-	margin-bottom: -6vh;
+	margin-bottom: -5.5vh;
 	margin-left: auto;
   margin-right: auto;
 }
