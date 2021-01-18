@@ -197,8 +197,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .prev,
 .next {
   letter-spacing: 6vh;
-  text-align: center;
+  position:relative;
   padding-left: 3vh;
+  padding-right: 3vh;
+  margin-left: 3vh;
 }
 
 .prev:hover,
@@ -206,6 +208,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   color: #000;
   cursor: pointer;
 }
+
 
 .numbertext {
   padding-bottom: 4vh;
