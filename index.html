@@ -8,6 +8,9 @@
 	<meta name="author" content="Christina Xie">
 
 	<script src="https://unpkg.com/scrollreveal"></script>
+	<script>
+		ScrollReveal().reveal(target, options);
+	</script>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato|Poppins|Raleway|Roboto|Roboto+Slab" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,7 +38,7 @@
 		<div class="background2">
 			<section id="welcome">
 				<div class="intro">
-					<h2 class = "headline">Welcome to my Portfolio.</h2>
+					<h2 class = "punchlinee">Welcome to my Portfolio.</h2>
 					<div class="imagebox1">
 						<img src="person.png" class="image1" alt="Illustration" title="Illustration"></p>
 					</div>
@@ -72,6 +75,6 @@
 		});
 	});
 	</script>
-	<script>ScrollReveal().reveal('.headline');</script>
+	<script>ScrollReveal().reveal('.punchline', { delay: 2000 })</script>
 </body>
 </html>
