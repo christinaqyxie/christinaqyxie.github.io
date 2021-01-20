@@ -26,7 +26,15 @@ h2 {
 	font-family:'Lato', sans-serif;
 	font-weight: 900px;
 	font-size: 5.5vh;
+	padding-left: -15vh;
 	letter-spacing: 0.1em;
+}
+
+.title {
+	position:absolute;
+	top:149%;
+	left:-6.5%;
+	transform:translate(10%,10%);
 }
 
 h3 {
@@ -251,12 +259,4 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .animate__animated.animate__fadeInUp {
   --animate-duration: 3.5s;
-}
-
-
-.title {
-	position:absolute;
-	top:153%;
-	left:26.5%;
-	transform:translate(20%,20%);
 }
