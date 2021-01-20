@@ -85,44 +85,12 @@
 			scrollTrigger: {
 			 trigger:".container2",
 			 //markers:true,
-			 start:"top 15%",
+			 start:"top 8%",
 			 end:"bottom",
 			 scrub:1,
 			 toggleActions:"play reset play complete"
 			},
-			 y:-400});
-
-			gsap.to(".box", {
-			scrollTrigger: {
-			 trigger:".container2",
-			 //markers:true,
-			 scrub:1,
-			 start:"top 15%",
-			 end:"bottom"
-			},
-			y:-300});
-
-		var change_bg = new TimelineMax({scrollTrigger:{
-		 trigger:".container3",
-		 start:"top",
-		 end:"bottom",
-		 //markers:true,
-		 toggleActions:"play reverse play reverse"
-		 }
-		});
-		change_bg.to(".container3",1,{backgroundColor:'black'})
-		change_bg.to(".container3-p",1,{color:'white'},0)
-
-			gsap.to(".container4-text", {
-			scrollTrigger: {
-			 trigger:".container4",
-			 //markers:true,
-			 scrub:1,
-			 start:"top",
-			 end:"bottom",
-			 pin:true
-			}});
-
+			 y:-370});
 
 		});
 		</script>
