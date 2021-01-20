@@ -7,7 +7,8 @@
 	<meta name="description" content="Christina Xie's Portfolio">
 	<meta name="author" content="Christina Xie">
 
-	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato|Poppins|Raleway|Roboto|Roboto+Slab" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,14 +30,16 @@
 		<div class="titles">
 			<img src="icon.png" class="iconPic" alt="Profile Icon" title="Icon">
 			<h1>Christina Xie</h1>
-			<h3>Biomedical Engineering Student</h3>
+			<section>
+				<h3>Biomedical Engineering Student</h3>
+			</section>
 			<a href="#welcome" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
 			<br>
 		</div>
 		<div class="background2">
 			<section id="welcome">
 				<div class="intro">
-					<h2 class = "animate__animated animate__fadeInUp">Welcome to my Portfolio.</h2>
+					<h2 class="title">Welcome to my Portfolio.</h2>
 					<div class="imagebox1">
 						<img src="person.png" class="image1" alt="Illustration" title="Illustration"></p>
 					</div>
@@ -56,7 +59,7 @@
 				</div>
 		</section>
 		</div>
-}
+
 
 	<!-- /main content →
 
@@ -74,5 +77,54 @@
 		});
 	});
 	</script>
+	<script>
+			jQuery(document).ready(function($) {
+		gsap.registerPlugin(ScrollTrigger);
+
+		gsap.to(".title", {
+			scrollTrigger: {
+			 trigger:".container2",
+			 //markers:true,
+			 start:"top 15%",
+			 end:"bottom",
+			 scrub:1,
+			 toggleActions:"play reset play complete"
+			},
+			 y:-400});
+
+			gsap.to(".box", {
+			scrollTrigger: {
+			 trigger:".container2",
+			 //markers:true,
+			 scrub:1,
+			 start:"top 15%",
+			 end:"bottom"
+			},
+			y:-300});
+
+		var change_bg = new TimelineMax({scrollTrigger:{
+		 trigger:".container3",
+		 start:"top",
+		 end:"bottom",
+		 //markers:true,
+		 toggleActions:"play reverse play reverse"
+		 }
+		});
+		change_bg.to(".container3",1,{backgroundColor:'black'})
+		change_bg.to(".container3-p",1,{color:'white'},0)
+
+			gsap.to(".container4-text", {
+			scrollTrigger: {
+			 trigger:".container4",
+			 //markers:true,
+			 scrub:1,
+			 start:"top",
+			 end:"bottom",
+			 pin:true
+			}});
+
+
+		});
+		</script>
 </body>
 </html>
