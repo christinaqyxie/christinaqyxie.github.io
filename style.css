@@ -33,7 +33,7 @@ h2 {
 .title {
 	position:absolute;
 	top:149%;
-	left:4%;
+	left: 8vh;
 	transform:translate(10%,10%);
 }
 
