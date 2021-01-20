@@ -32,9 +32,9 @@ h2 {
 
 .title {
 	position:absolute;
-	top:149%;
-	left: 8vh;
-	transform:translate(10%,10%);
+	top:153%;
+	left: 12vh;
+	transform:translate(5%,5%);
 }
 
 h3 {
@@ -164,9 +164,9 @@ hr {
 
 .image1 {
 	width: 140%;
+	margin-top: 16%;
 	margin-left: -45%;
 	padding-left: 13vh;
-	margin-top: 10%;
 }
 
 .imagebox2 {
